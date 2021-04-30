@@ -1,0 +1,100 @@
+
+
+/* do not remove or edit the following rule */
+body {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+header {
+	background-color: red;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 24px;
+}
+
+
+
+button {
+	font-size: 18px;
+}
+
+header > h1 {
+	color: white;
+}
+
+main > h2 {
+	color: white;
+	background-color: blue;
+	font-size: 22px;
+	margin-top: 30px;
+	
+}
+
+main > h3 {
+	color: white;
+	background-color: blue;
+	font-size: 22px;
+	margin-top: 65px;
+	
+}
+
+footer > p {
+	font-size: 20px;
+}
+
+main > img {
+	float: right;
+}
+
+#name {
+	margin-left: 29px;
+}
+
+#phone {
+	margin-left: 26px;
+}
+
+#email {
+	margin-left: 33px;
+}
+
+main {
+	padding-left: 350px;
+	padding-right: 400px;
+}
+
+footer > p {
+	color: white;
+}
+
+button {
+	margin-top: 25px;
+	margin-bottom: 132px;
+}
+
+footer {
+	background-color: red;
+	text-align: center;
+	
+}
+
+span {
+	color: red;
+	font-size: 90%;
+	display: block;
+	padding-left: 1em;
+	margin-bottom: .5em;
+}
+
+.flex-container {
+	display: flex;
+	padding-bottom: 18px;
+
+  }
+  
+
+

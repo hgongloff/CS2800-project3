@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/main.js"></script>
+    <title>Order Confirmation</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1> Order Confirmation </h1>
+    </header>
+
+
+    <main>
+
+      <p>Your order was received on
+
+        <script>
+
+      var order_date = new Date(); //stores the computer date/time in the variable called order_date
+      var current_month = "";
+      if(order_date.getMonth() == 0) {
+        current_month = "January";
+      } else if (order_date.getMonth() == 1) {
+        current_month = "February";
+      } else if (order_date.getMonth() == 2) {
+        current_month = "March";
+      } else if (order_date.getMonth() == 3) {
+        current_month = "April";
+      } else if (order_date.getMonth() == 4) {
+        current_month = "May";
+      } else if (order_date.getMonth() == 5) {
+        current_month = "June";
+      } else if (order_date.getMonth() == 6) {
+        current_month = "July";
+      } else if (order_date.getMonth() == 7) {
+        current_month = "August";
+      } else if (order_date.getMonth() == 8) {
+        current_month = "September";
+      } else if (order_date.getMonth() == 9) {
+        current_month = "October";
+      } else if (order_date.getMonth() == 10) {
+        current_month = "November";
+      } else if (order_date.getMonth() == 11) {
+        current_month = "December";
+      } 
+
+      document.write(current_month + " " + order_date.getDate() + ", " + order_date.getFullYear());
+
+      document.write(" at " + order_date.getHours() + ":" + order_date.getMinutes());
+
+      </script>
+      </p>
+
+    </main>
+
+    <script>
+      var d = new Date();
+      document.getElementById("demo").innerHTML = d;
+      </script>
+    <footer>
+      <p>Hunter Gongloff - CS2800 Project 3 - Spring 2021</p>
+    </footer>
+
+  </body>
+</html>

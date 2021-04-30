@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>  
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+	<script src="scripts/main.js"></script>
+	<title>Baseball Caps</title>
+  </head>
+  
+  <body>
+  
+	<header>
+		<h1> Baseball Caps</h1>
+	</header>
+         
+    <main> 	
+		<img id="hat_pic" src="images/reds.png"></img> 
+		<h2> Select your team: </h2>
+			<input type="radio" id="cinncinati_reds" name="team" checked>
+			<label for="cinncinati_reds">Cinncinati Reds</label><br>
+			<input type="radio" id="cleveland_indians" name="delivery" checked="true">
+			<label for="cleveland_indians">Cleveland Indian</label><br>
+			<input type="radio" id="detroit_tigers" name="team">
+			<label for="detroit_tigers">Detroit Tigers</label>
+			
+		
+		<h3> Provide your shipping information:</h3>
+		<div class="flex-container">
+			<label for="name">Name  </label> <input type="text" id="name" name="name" value="">
+			<span></span><br>
+		</div>
+		<div class="flex-container">
+			<label for="phone"> Phone </label> <input type="text" id="phone" name="phone" value="">
+			<span></span><br>
+		</div>
+		<div class="flex-container">
+			<label for="email"> Email </label> <input type="text" id="email" name="email" value="">
+			<span></span><br>
+		</div>
+			<textarea id="special_instructions" name="special_instructions" rows="4" cols="50" placeholder="Enter special instructions here"></textarea>
+
+		<h3> Sign up for our mailing lists!</h3>
+			<input type="checkbox" id="promotions" name="mailing_list">
+			<label for="promotions">Promotions</label><br>
+			<input type="checkbox" id="new_products" name="mailing_list">
+			<label for="new_products">New Products</label><br>
+			<input type="checkbox" id="catalog" name="mailing_list">
+			<label for="catalog">Catalog (quarterly)</label><br>
+
+			<button name="submit_order" class="action_btn submit" type="submit" id="submit_order" value="submit_order">Submit Order</button>
+			<button name="clear_form" class="action_btn clear" type="submit" id="clear_form" value="clear_form">Clear Form</button>
+
+    </main>
+	
+	<footer>
+		<p>Hunter Gongloff - CS2800 Project 3 - Spring 2021</p>
+	</footer>
+    
+  </body>
+</html>
+
